@@ -1,0 +1,25 @@
+{
+  "type": "chain",
+  "rules": [
+    {
+      "type": "predicated",
+      "if_true": "allow",
+      "if_false": "pass",
+      "predicate": {
+        "type": "attacker_is_boss"
+      }
+    },
+    {
+      "type": "predicated",
+      "if_true": "deny",
+      "if_false": "pass",
+      "predicate": {
+        "type": "score",
+        "objective": "snip",
+        "who": "attacker",
+        "thresholdMode": "at_least",
+        "threshold": 1
+      }
+    }
+  ]
+}
