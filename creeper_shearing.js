@@ -1,3 +1,4 @@
+//server_scripts
 //use shears to defuse a creeper dropping item. requires Apathy and the apathy-mobs.json
 //note: currently if a Creeper's fuse has started it can still explode even if snipped. Once the fuse dissipates the Creeper will be fully passive
 let ObjectiveCriteria = Java.loadClass("net.minecraft.world.scores.criteria.ObjectiveCriteria")
