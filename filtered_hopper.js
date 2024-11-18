@@ -1,3 +1,4 @@
+//startup_scripts
 //credit: based on a script by DevDyna https://github.com/DevDyna/kubejs-testing/blob/main/startup_scripts/blockUtility/Crucible.js
 const $IntegerProperty = Java.loadClass(
   "net.minecraft.world.level.block.state.properties.IntegerProperty"
