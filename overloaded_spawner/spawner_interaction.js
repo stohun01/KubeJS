@@ -1,4 +1,4 @@
-//server script
+//server script, forge 1.20.1
 BlockEvents.rightClicked('minecraft:spawner', event => {
     const { item, hand, block, server } = event
     let dayCount = (event.level.getDayTime() / 24000)
