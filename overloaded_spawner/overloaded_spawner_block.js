@@ -1,4 +1,4 @@
-//startup script
+//startup script, forge 1.20.1
 function rnd(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
